@@ -34,7 +34,7 @@ impl<T: std::fmt::Debug> Node<T> {
         }
     }
     fn add(&mut self, path: &str) {
-        let Some((head, tail)) = path.split_once('/') else { return; };
+        todo!()
     }
 }
 
